@@ -25,6 +25,7 @@ modules:
       packages:
         - hyprland
         - hyprland-devel
+        - sddm
         - mpv
         - mpv-libs
     remove:

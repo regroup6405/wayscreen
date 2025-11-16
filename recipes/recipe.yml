@@ -51,7 +51,6 @@ modules:
           - org.deskflow.deskflow
           - org.remmina.Remmina
           - org.videolan.VLC
-          - tv.plex.PlexDesktop
 
   - type: script
     scripts:

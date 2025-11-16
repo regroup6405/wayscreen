@@ -26,6 +26,9 @@ modules:
         - hyprland
         - hyprland-devel
         - xdg-desktop-portal-hyprland
+        - hyprland-contrib
+        - hyprland-plugins
+        - hyprland-qtutils
         - sddm
         - mpv
         - mpv-libs

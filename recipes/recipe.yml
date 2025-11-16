@@ -34,6 +34,7 @@ modules:
         - sddm
         - mpv
         - mpv-libs
+        - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm 
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -46,7 +47,6 @@ modules:
       - notify: true # Send notification after install/uninstall is finished (true/false)
       - scope: user # Also add Flathub user repo, but no user packages
         install: # system flatpaks we want all users to have and not remove
-          - com.google.Chrome
           - org.deskflow.deskflow
           - org.remmina.Remmina
           - org.videolan.VLC

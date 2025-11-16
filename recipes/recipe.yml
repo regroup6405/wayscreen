@@ -36,7 +36,9 @@ modules:
         - mpv
         - mpv-libs
         - python3-pip
-        - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm 
+        - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+        - libei
+        - libportal
     remove:
       packages:
         - firefox

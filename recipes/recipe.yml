@@ -58,6 +58,7 @@ modules:
   - type: systemd
     system:
       enabled:
+        - serial-getty@ttyS0.service
         - var-mnt-sscd.mount
       disabled:
         - flatpak-system-update.timer

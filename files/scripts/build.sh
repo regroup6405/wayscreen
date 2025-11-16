@@ -11,6 +11,8 @@ curl -sSL https://github.com/mikefarah/yq/releases/download/v4.48.2/yq_linux_amd
 PIPS=$(cat <<EOF
 pulsemixer
 streamlink
+mpv
+python-mpv
 EOF
 )
 

@@ -5,4 +5,5 @@
 # builds actually ran successfully without any errors!
 set -oue pipefail
 
-hyprpm add https://github.com/outfoxxed/hy3
+curl -sSL https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64 -o /usr/bin/jq && chmod +x /usr/bin/jq
+curl -sSL https://github.com/mikefarah/yq/releases/download/v4.48.2/yq_linux_amd64 -o /usr/bin/yq && chmod +x /usr/bin/yq

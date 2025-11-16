@@ -61,6 +61,7 @@ modules:
       disabled:
         - flatpak-system-update.timer
         - system-flatpak-setup.timer
+        - rpm-ostree-countme.timer
     user:
       # enabled:
       #  - my-custom.service

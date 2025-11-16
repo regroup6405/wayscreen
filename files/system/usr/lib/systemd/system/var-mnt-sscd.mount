@@ -1,0 +1,11 @@
+[Unit]
+Description=Mount sscd
+
+[Mount]
+What=/dev/sr0
+Where=/var/mnt/sscd
+Type=iso9660
+Options=ro,noatime
+
+[Install]
+WantedBy=multi-user.target

@@ -29,6 +29,8 @@ modules:
         - hyprland-contrib
         - hyprland-plugins
         - hyprland-qtutils
+        - hyprpaper
+        - hyprpolkitagent
         - sddm
         - mpv
         - mpv-libs

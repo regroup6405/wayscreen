@@ -1,0 +1,9 @@
+[Unit]
+Description=onboot
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/onboot.sh
+
+[Install]
+WantedBy=default.target

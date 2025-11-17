@@ -80,14 +80,13 @@ modules:
     system:
       enabled:
         - serial-getty@ttyS0.service
+        - onboot.service
         - var-mnt-sscd.mount
       disabled:
         - flatpak-system-update.timer
         - system-flatpak-setup.timer
         - rpm-ostree-countme.timer
     user:
-      # enabled:
-      #  - my-custom.service
       disabled:
         - flatpak-user-update.timer
         - user-flatpak-setup.timer

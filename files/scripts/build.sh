@@ -13,6 +13,8 @@ SDDM_CONF=$(cat <<EOF
 [Autologin]
 Session=${DESKTOP_ENV}
 User=${USERNAME}
+[General]
+DisplayServer=${DESKTOP_TYPE}
 EOF
 )
 

@@ -5,7 +5,10 @@
 # builds actually ran successfully without any errors!
 set -oue pipefail
 
-ls -lha
+find / -type f | grep 'desktopenv'
+
+DESKTOP_ENV="i3"
+USERNAME="ryan"
 
 SDDM_CONF=$(cat <<EOF
 [Autologin]
@@ -14,8 +17,7 @@ User=${USERNAME}
 EOF
 )
 
-DESKTOP_ENV="i3"
-USERNAME="ryan"
+
 echo "${SDDM_CONF}" > /usr/etc/sddm.conf
 
 curl -sSL https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64 -o /usr/bin/jq && chmod +x /usr/bin/jq

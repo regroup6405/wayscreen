@@ -29,6 +29,10 @@ python-mpv
 EOF
 )
 
-echo "$PIPS" | while IFS= read -r i; do
+echo "$PIPS" | sort | while IFS= read -r i; do
     python -m pip install --prefix=/usr "$i"
+done
+
+find /usr/bin -iname "*.sh" -type f | sort | while IFS= read -r i; do
+  chmod +x "$i"
 done

@@ -13,6 +13,7 @@ pulsemixer
 streamlink
 mpv
 python-mpv
+ffmpeg-normalize
 EOF
 )
 

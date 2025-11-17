@@ -43,8 +43,6 @@ modules:
         - xorg-x11-server-common
         - xorg-x11-server-devel
         - i3
-        - alacritty
-        - xfce4-terminal
         - rofi
         - feh
         - xdotool

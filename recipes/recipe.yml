@@ -43,6 +43,8 @@ modules:
         - xorg-x11-server-Xvfb
         - xorg-x11-server-common
         - xorg-x11-server-devel
+        - linux-firmware
+        - amd-gpu-firmware
         - i3
         - rofi
         - feh

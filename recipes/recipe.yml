@@ -33,6 +33,7 @@ modules:
         - hyprpolkitagent
         - sway
         - sddm
+        - sddm-themes
         - mpv
         - mpv-libs
         - python3-pip

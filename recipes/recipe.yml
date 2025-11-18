@@ -55,6 +55,7 @@ modules:
         - xset
         - xsetroot
         - xwininfo
+        - numlockx
         - wmctrl
         - picom
         - unclutter-xfixes

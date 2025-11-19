@@ -26,8 +26,9 @@ curl -sSL https://github.com/KaranGauswami/socks-to-http-proxy/releases/download
 
 PIPS=$(cat <<EOF
 pulsemixer
-streamlink
 python-mpv
+selenium
+streamlink
 EOF
 )
 

@@ -45,6 +45,8 @@ modules:
         - xorg-x11-server-devel
         - linux-firmware
         - amd-gpu-firmware
+        - xorg-x11-drv-amdgpu
+        - amdsmi
         - i3
         - rofi
         - feh

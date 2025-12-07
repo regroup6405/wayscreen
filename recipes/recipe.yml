@@ -75,6 +75,7 @@ modules:
       - scope: user
         install:
           - org.deskflow.deskflow
+          - org.mozilla.firefox
           - org.remmina.Remmina
           - org.videolan.VLC
 
